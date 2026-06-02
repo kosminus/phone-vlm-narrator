@@ -1,0 +1,5 @@
+# Minimal MediaMTX config: accept any stream path with default settings.
+# This is what lets the phone publish to 'live/phone' without per-path setup.
+# Without this catch-all, MediaMTX rejects publishes as "path is not configured".
+paths:
+  all_others:

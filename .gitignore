@@ -1,0 +1,14 @@
+# Captured video clips — never commit personal footage
+clips/
+*.mp4
+*.flv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+*.swp
